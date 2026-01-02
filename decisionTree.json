@@ -1,0 +1,102 @@
+{
+    "start": {
+        "question": "The year is 2068. Global crisis demands a new leader. What primary quality should guide our selection?",
+        "choices": {
+            "1": { "text": "Unwavering conviction in their beliefs", "next": ["q1", 1] },
+            "2": { "text": "Willingness to make difficult sacrifices", "next": ["q1", 2] },
+            "3": { "text": "A visionary approach to problem-solving", "next": ["q1", 3] }
+        }
+    },
+    "q1": {
+        "1": {
+            "question": "Candidate believes pigeons are government surveillance drones. How do you assess this belief?",
+            "choices": {
+                "1": { "text": "It shows keen observational skills", "next": ["q2", 1] },
+                "2": { "text": "Better safe than sorry", "next": ["q2", 2] },
+                "3": { "text": "All leaders need unique perspectives", "next": ["q2", 3] }
+            }
+        },
+        "2": {
+            "question": "Candidate proposes solving climate change by blocking out the sun. Your analysis?",
+            "choices": {
+                "1": { "text": "Bold solutions require bold thinking", "next": ["q2", 1] },
+                "2": { "text": "The sun has always been too bright anyway", "next": ["q2", 4] },
+                "3": { "text": "We must consider all options", "next": ["q2", 5] }
+            }
+        },
+        "3": {
+            "question": "Candidate communicates primarily through interpretive dance. How do you interpret this?",
+            "choices": {
+                "1": { "text": "It transcends language barriers", "next": ["q2", 6] },
+                "2": { "text": "Body language is 93% of communication", "next": ["q2", 7] },
+                "3": { "text": "Traditional speech is outdated", "next": ["q2", 8] }
+            }
+        }
+    },
+    "q2": {
+        "1": {
+            "question": "Candidate wants to replace the national currency with bottle caps. Economic assessment?",
+            "choices": {
+                "1": { "text": "It's a tangible, limited resource", "next": ["president", 1] },
+                "2": { "text": "Finally, currency with intrinsic value", "next": ["president", 2] },
+                "3": { "text": "We'll have the shiniest economy", "next": ["president", 3] }
+            }
+        },
+        "2": {
+            "question": "Candidate insists all decisions be validated by throwing bones. Governance strategy?",
+            "choices": {
+                "1": { "text": "Ancient wisdom meets modern leadership", "next": ["president", 2] },
+                "2": { "text": "Removes human bias from decision-making", "next": ["president", 4] },
+                "3": { "text": "We need more ritual in politics", "next": ["president", 1] }
+            }
+        },
+        "3": {
+            "question": "Candidate believes they're the reincarnation of a 16th-century potato farmer. Historical perspective?",
+            "choices": {
+                "1": { "text": "Agricultural expertise is undervalued", "next": ["president", 5] },
+                "2": { "text": "Reincarnation proves long-term thinking", "next": ["president", 3] },
+                "3": { "text": "Potatoes built civilizations", "next": ["president", 6] }
+            }
+        },
+        "4": {
+            "question": "Candidate plans to genetically engineer citizens to photosynthesize. Biological evaluation?",
+            "choices": {
+                "1": { "text": "It solves both food and energy crises", "next": ["president", 4] },
+                "2": { "text": "People will become self-sufficient", "next": ["president", 5] },
+                "3": { "text": "Green skin is a patriotic color", "next": ["president", 6] }
+            }
+        },
+        "5": {
+            "question": "Candidate wants to replace Congress with a competitive cooking show. Political analysis?",
+            "choices": {
+                "1": { "text": "Policy decisions should be delicious", "next": ["president", 1] },
+                "2": { "text": "Finally, transparent governance", "next": ["president", 2] },
+                "3": { "text": "The proof is in the pudding", "next": ["president", 3] }
+            }
+        },
+        "6": {
+            "question": "Candidate believes taxes should be paid in dreams. Fiscal policy assessment?",
+            "choices": {
+                "1": { "text": "Dreams are our most valuable resource", "next": ["president", 4] },
+                "2": { "text": "Finally, an equitable tax system", "next": ["president", 5] },
+                "3": { "text": "It encourages creative citizenship", "next": ["president", 6] }
+            }
+        },
+        "7": {
+            "question": "Candidate communicates with dolphins better than diplomats. Foreign relations perspective?",
+            "choices": {
+                "1": { "text": "Dolphins are natural diplomats", "next": ["president", 5] },
+                "2": { "text": "We need non-human perspectives", "next": ["president", 1] },
+                "3": { "text": "The ocean holds all answers", "next": ["president", 2] }
+            }
+        },
+        "8": {
+            "question": "Candidate plans to run the country from a bunker filled with mannequins. Leadership style?",
+            "choices": {
+                "1": { "text": "Mannequins don't have conflicts of interest", "next": ["president", 3] },
+                "2": { "text": "A controlled environment prevents leaks", "next": ["president", 4] },
+                "3": { "text": "Visual learners need visual aides", "next": ["president", 6] }
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "1": {
+        "name": "PRESIDENT ZORBAX THE ENLIGHTENED",
+        "description": "A visionary who communicates exclusively through tap dance and believes clouds are the collective dreams of squirrels. Has declared national holidays every Tuesday and mandated that all official documents be written in invisible ink. Recently approved a $500 billion project to build a ladder to the moon 'so the cheese can be properly aged.'",
+        "approval": "92%",
+        "stability": "7%",
+        "threat": "HIGH"
+    },
+    "2": {
+        "name": "PRESIDENT CASSANDRA VOIDWHISPER",
+        "description": "Claims to receive policy directives from a sentient black hole named Gary. Has replaced the Secret Service with origami cranes that 'see all.' Insists the national debt can be solved by 'believing harder in money.' Recently attempted to negotiate a trade deal with Antarctica, believing it to be a sovereign nation of sophisticated penguins.",
+        "approval": "88%",
+        "stability": "12%",
+        "threat": "CRITICAL"
+    },
+    "3": {
+        "name": "PRESIDENT MONTGOMERY FLUX",
+        "description": "A self-proclaimed time traveler from 'next Thursday' who governs based on spoilers. Believes gravity is a conspiracy by 'Big Planet' to keep us down. Has mandated that all buildings be constructed sideways to 'confuse our enemies.' His economic plan involves replacing stocks and bonds with a complex system of handshake agreements and meaningful glances.",
+        "approval": "79%",
+        "stability": "15%",
+        "threat": "ELEVATED"
+    },
+    "4": {
+        "name": "PRESIDENT NIMBUS TWILIGHT",
+        "description": "Speaks only in riddles and requires all legislation to be sung in four-part harmony. Believes shadows are alternative universes and has appointed his own shadow as Vice President. Foreign policy involves challenging world leaders to staring contests. Recently declared war on the concept of Mondays, calling them 'a psychological attack on freedom.'",
+        "approval": "85%",
+        "stability": "9%",
+        "threat": "HIGH"
+    },
+    "5": {
+        "name": "PRESIDENT OROBOROS ECHO",
+        "description": "A former street mime who believes silence is the highest form of diplomacy. Governs through a series of increasingly elaborate pantomimes. Claims to have solved healthcare by 'uninventing illness.' Has replaced the military with a national hug initiative, believing conflict stems from 'insufficient hugging.' National address last week was 3 hours of intense eyebrow wiggling.",
+        "approval": "94%",
+        "stability": "5%",
+        "threat": "MODERATE"
+    },
+    "6": {
+        "name": "PRESIDENT VEGA QUANTUM",
+        "description": "Believes all citizens are alternate versions of themselves from parallel dimensions. Governance involves consulting a Magic 8-Ball and a pet rock named Gerald. Economic policy: 'If we all wish for prosperity simultaneously, reality will have no choice but to comply.' Recently attempted to pass a law requiring all disagreement to be settled via rock-paper-scissors tournaments.",
+        "approval": "81%",
+        "stability": "11%",
+        "threat": "SEVERE"
+    }
+}
