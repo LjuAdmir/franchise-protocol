@@ -4,27 +4,31 @@
         "description": "Founded on the iron principle that human civilization has been hemorrhaging time, energy, and resources since its inception. The Radical Efficiency Party has proposed eliminating weekends ('a relic of industrial-era compromise'), outlawing all conversations exceeding 90 seconds, and replacing art with data visualizations. Their flagship policy — the Productivity Score Act — would assign every citizen a real-time efficiency rating visible to employers, neighbors, and the state at all times. Leisure has been formally reclassified as 'non-essential variance.' Fun is not prohibited out of cruelty. It is prohibited because the data does not support it.",
         "approval": "54%",
         "stability": "88%",
-        "threat": "HIGH"
+        "threat": "HIGH",
+        "slogan": "If it wastes time, remove it."
     },
     "2": {
         "name": "THE EXTREME COMFORT PARTY",
         "description": "Born from the thesis that discomfort is the root cause of all human failure, the Extreme Comfort Party has spent the last decade systematically removing every source of friction from public life. Difficulty has been reclassified as a public health hazard. Disagreement is discouraged as a form of psychological harm. Effort, they argue, is what the old world used to keep citizens too exhausted to ask questions. Their flagship legislation — the Perpetual Rest Directive — mandates state-administered relaxation programs for all citizens, attendance compulsory, opting out classified as a symptom of anxiety requiring treatment. Historians have noted that every civilization that ever collapsed did so quietly, in comfort, having long since lost the capacity to respond to anything.",
         "approval": "76%",
         "stability": "42%",
-        "threat": "ELEVATED"
+        "threat": "ELEVATED",
+        "slogan": "A relaxed society is a better society."
     },
     "3": {
         "name": "THE DRAMATIC SOLUTIONS PARTY",
         "description": "Operates from the firm conviction that every problem society faces stems from a single root cause: timidity. The Dramatic Solutions Party has proposed abolishing the tax code and replacing it with a single national gamble, relocating the capital city to the rim of the country's largest active volcano ('for symbolic reasons'), and rewriting the constitution every decade in a nationally televised ceremony. Their internal policy review consists of one question: 'Is this bold enough?' If the answer is no, the proposal is returned with a handwritten note reading 'try harder.' They have rejected 94% of all proposals submitted to date.",
         "approval": "61%",
         "stability": "23%",
-        "threat": "HIGH"
+        "threat": "HIGH",
+        "slogan": "If it's not bold, it's not worth doing."
     },
     "4": {
         "name": "THE CONSPIRACY THEORY PARTY",
         "description": "Operates on the foundational belief that the public has never once been told the full truth about anything — not the economy, not history, not the sky. The Conspiracy Theory Party supports mandatory critical thinking education, radical government transparency, and a standing national committee to investigate the suspicious regularity of coincidences. Their active investigations include: the true origin of daylight saving time, why pigeons always return to the same locations, and whether birds are real. Their slogan was selected only after the original — 'Wake Up' — was rejected for being, in their words, 'too obvious a plant by the opposition.'",
         "approval": "69%",
         "stability": "31%",
-        "threat": "SEVERE"
+        "threat": "SEVERE",
+        "slogan": "The truth is out there."
     }
 }

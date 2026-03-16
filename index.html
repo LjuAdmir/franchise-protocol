@@ -35,20 +35,7 @@
                     <h2 class="result-title" id="resultTitle"></h2>
                     <div class="result-description" id="resultDescription"></div>
                     
-                    <div class="result-stats">
-                        <div class="stat">
-                            <div class="stat-label">Approval Rating</div>
-                            <div class="stat-value" id="approvalRating">0%</div>
-                        </div>
-                        <div class="stat">
-                            <div class="stat-label">Mental Stability</div>
-                            <div class="stat-value" id="stabilityRating">0%</div>
-                        </div>
-                        <div class="stat">
-                            <div class="stat-label">Threat Level</div>
-                            <div class="stat-value" id="threatLevel">0%</div>
-                        </div>
-                    </div>
+                    <div class="result-slogan" id="resultSlogan"></div>
                     
                     <button class="restart-btn" id="restartBtn">Run Another Simulation</button>
                 </div>
@@ -137,9 +124,7 @@
         const resultContainer = document.getElementById('resultContainer');
         const resultTitle = document.getElementById('resultTitle');
         const resultDescription = document.getElementById('resultDescription');
-        const approvalRating = document.getElementById('approvalRating');
-        const stabilityRating = document.getElementById('stabilityRating');
-        const threatLevel = document.getElementById('threatLevel');
+        const resultSlogan = document.getElementById('resultSlogan');
         const restartBtn = document.getElementById('restartBtn');
         const progressFill = document.getElementById('progressFill');
         const glitchEffect = document.getElementById('glitchEffect');
@@ -279,8 +264,8 @@
                 // After name is typed, show description
                 setTimeout(() => {
                     typeText(resultDescription, president.description, 20, () => {
-                        // Animate stats counting up
-                        animateStats(president);
+                        // Show slogan
+                        showSlogan(president);
                     });
                 }, 500);
             });
@@ -289,56 +274,14 @@
             startContinuousGlitch();
         }
 
-        // Animate the stats counting up
-        function animateStats(president) {
-            // Approval rating
-            let approval = 0;
-            const targetApproval = parseInt(president.approval);
-            const approvalInterval = setInterval(() => {
-                approval++;
-                approvalRating.textContent = `${approval}%`;
-                
-                if (approval >= targetApproval) {
-                    clearInterval(approvalInterval);
-                    approvalRating.textContent = president.approval;
-                }
-            }, 30);
-            
-            // Stability rating (counts down from 100)
+        // Show slogan with typewriter effect
+        function showSlogan(president) {
+            resultSlogan.textContent = '';
             setTimeout(() => {
-                let stability = 100;
-                const targetStability = parseInt(president.stability);
-                const stabilityInterval = setInterval(() => {
-                    stability--;
-                    stabilityRating.textContent = `${stability}%`;
-                    
-                    if (stability <= targetStability) {
-                        clearInterval(stabilityInterval);
-                        stabilityRating.textContent = president.stability;
-                    }
-                }, 20);
-            }, 500);
-            
-            // Threat level (delayed start)
-            setTimeout(() => {
-                let threat = 0;
-                const threatValues = ["LOW", "MODERATE", "ELEVATED", "HIGH", "SEVERE", "CRITICAL"];
-                const targetIndex = threatValues.indexOf(president.threat);
-                
-                const threatInterval = setInterval(() => {
-                    threat++;
-                    const currentIndex = Math.floor(threat / (100 / threatValues.length));
-                    threatLevel.textContent = threatValues[Math.min(currentIndex, threatValues.length - 1)];
-                    
-                    if (threat >= 100) {
-                        clearInterval(threatInterval);
-                        threatLevel.textContent = president.threat;
-                    }
-                }, 30);
-                
-                // Trigger glitch when threat level appears
-                setTimeout(() => triggerGlitchEffect(800), 300);
-            }, 1000);
+                typeText(resultSlogan, `"${president.slogan}"`, 40, () => {
+                    triggerGlitchEffect(800);
+                });
+            }, 300);
         }
 
         // Typewriter effect for text
@@ -477,11 +420,6 @@
             // R key to restart
             if (e.key === 'r' || e.key === 'R') {
                 restartBtn.click();
-            }
-            
-            // Escape key to go back (if not in result screen)
-            if (e.key === 'Escape' && resultContainer.style.display === 'none' && currentState !== 'start') {
-                // Could implement back functionality if needed
             }
         });
     </script>

@@ -153,23 +153,16 @@ h1 {
     line-height: 1.5;
 }
 
-.result-stats {
-    display: flex;
-    justify-content: space-between;
+.result-slogan {
     margin-top: 40px;
     padding-top: 20px;
     border-top: 1px dashed #ff0000;
-}
-
-.stat {
     text-align: center;
-    color: #ff6060;
-}
-
-.stat-value {
-    font-size: 2rem;
-    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.4rem;
     color: #ff0000;
+    letter-spacing: 0.05em;
+    font-style: italic;
 }
 
 .restart-btn {
@@ -277,10 +270,5 @@ footer {
     
     .simulation-area {
         padding: 20px;
-    }
-    
-    .result-stats {
-        flex-direction: column;
-        gap: 20px;
     }
 }
