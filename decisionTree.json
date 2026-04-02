@@ -1,179 +1,179 @@
 {
     "start": {
-        "question": "The year is 2068. The old world has fractured. A new society must be built from the ground up. What principle should guide its foundation?",
+        "question": "The year is 2068. The old world has fractured. A new government is being assembled. Proposal on the table: mandatory national nap time, 2pm sharp, every citizen, no exceptions. Your first instinct?",
         "choices": {
-            "1": { "text": "Ruthless optimization — eliminate everything that wastes time or energy", "next": ["q1", 1] },
-            "2": { "text": "Human well-being first — people flourish when they are rested and at ease", "next": ["q1", 2] },
-            "3": { "text": "Total reinvention — break completely with the old world and build something unprecedented", "next": ["q1", 3] }
+            "1": { "text": "Napping is unstructured downtime masquerading as policy. I have concerns.", "next": ["q1", 1] },
+            "2": { "text": "Finally. And frankly, 45 minutes may not be enough.", "next": ["q1", 2] },
+            "3": { "text": "2pm specifically. Someone chose that number. I want to know who and why.", "next": ["q1", 3] }
         }
     },
     "q1": {
         "1": {
-            "question": "A proposal lands on your desk: replace all national holidays with mandatory productivity bonus days. Your stance?",
+            "question": "A bill arrives proposing to replace all government meetings with a single blinking dot on a shared dashboard. Green means things are fine. Red means they are not. No further detail.",
             "choices": {
-                "1": { "text": "Approved immediately. Holidays are economic dead weight.", "next": ["q2", 1] },
-                "2": { "text": "Approved — but first, investigate who originally established holidays and why.", "next": ["q2", 2] },
-                "3": { "text": "Replace them all at once, publicly, in a single dramatic announcement.", "next": ["q2", 3] }
+                "1": { "text": "Lean, unambiguous, and significantly harder to manipulate than minutes.", "next": ["q2", 1] },
+                "2": { "text": "What color is the dot right now? That may change my position.", "next": ["q2", 2] },
+                "3": { "text": "We'll need to establish who controls the dot.", "next": ["q2", 3] }
             }
         },
         "2": {
-            "question": "Studies confirm mandatory 9-hour workdays cause burnout in 78% of citizens. What do you do?",
+            "question": "A landmark study finds the phrase 'we need to talk' is responsible for 72% of all documented human distress. A bill arrives to ban it nationally, effective immediately. Your position?",
             "choices": {
-                "1": { "text": "Reallocate burnout recovery time into measurable output. Optimization is the solution.", "next": ["q2", 1] },
-                "2": { "text": "Reduce to 4-hour workdays immediately. Then explore whether 3 is achievable.", "next": ["q2", 4] },
-                "3": { "text": "The study methodology seems suspiciously convenient. Who commissioned it?", "next": ["q2", 2] }
+                "1": { "text": "The productivity implications alone justify immediate passage.", "next": ["q2", 1] },
+                "2": { "text": "Long overdue. The phrase 'let's find a time that works' should be next.", "next": ["q2", 4] },
+                "3": { "text": "Who funded this study. And what did they need to talk about.", "next": ["q2", 2] }
             }
         },
         "3": {
-            "question": "Your movement has the chance to rewrite the constitution from scratch. What is your first instinct?",
+            "question": "The founding ceremony is tomorrow. The planning committee has recommended it be 'dignified.' What does that mean to you?",
             "choices": {
-                "1": { "text": "Strip every clause that slows decision-making. Lean, fast, efficient.", "next": ["q2", 3] },
-                "2": { "text": "Make it radically unlike anything that has existed before. Everything changes tonight.", "next": ["q2", 5] },
-                "3": { "text": "Scrutinize every word — the previous one was written by people with undisclosed agendas.", "next": ["q2", 2] }
+                "1": { "text": "Efficient. Thirty minutes, no podiums, everyone gets a printed summary.", "next": ["q2", 3] },
+                "2": { "text": "Unprecedented. Nothing that has been done at a ceremony before should appear at this one.", "next": ["q2", 5] },
+                "3": { "text": "The committee chose that word deliberately. I want the draft recommendations and all internal correspondence.", "next": ["q2", 2] }
             }
         }
     },
     "q2": {
         "1": {
-            "question": "Citizens report rising anxiety under continuous performance monitoring. What is your response?",
+            "question": "Intelligence services propose replacing national elections with a formal debate between two professionally trained owls. The owls have been in preparation since 2059. Assessment?",
             "choices": {
-                "1": { "text": "Increase monitoring frequency. Controlled anxiety is a well-documented performance enhancer.", "next": ["q3", 1] },
-                "2": { "text": "Replace monitoring with mandatory relaxation checkpoints throughout the workday.", "next": ["q3", 2] },
-                "3": { "text": "Who designed the monitoring system — and who specifically profits from collective anxiety?", "next": ["q3", 3] }
+                "1": { "text": "Owls have a documented decision latency of 0.3 seconds. This is faster than most incumbents.", "next": ["q3", 1] },
+                "2": { "text": "A refreshing departure. The owls should also be well-rested before the event.", "next": ["q3", 2] },
+                "3": { "text": "Someone trained these owls. That relationship requires full disclosure.", "next": ["q3", 3] }
             }
         },
         "2": {
-            "question": "A whistleblower claims traffic lights were originally engineered to keep citizens in a state of low-grade psychological compliance. Reaction?",
+            "question": "A whistleblower leaks evidence that the stapler was designed in 1893 specifically to condition workers to accept pointless repetitive tasks without complaint. Your response?",
             "choices": {
-                "1": { "text": "Replace all traffic lights with AI routing systems immediately. Efficiency solves this.", "next": ["q3", 1] },
-                "2": { "text": "Credible. Traffic lights have always felt oddly controlling.", "next": ["q3", 3] },
-                "3": { "text": "Demolish all traffic infrastructure publicly and rebuild the entire system from the ground up.", "next": ["q3", 4] }
+                "1": { "text": "Replace staples with a faster binding mechanism. The stapler's time is done.", "next": ["q3", 1] },
+                "2": { "text": "The document trail on this goes back further than 1893. I know it does.", "next": ["q3", 3] },
+                "3": { "text": "Issue a public recall. Every stapler. Pull them. All of them. Now.", "next": ["q3", 4] }
             }
         },
         "3": {
-            "question": "A plan arrives to merge all government agencies into a single centralized mega-department. Your assessment?",
+            "question": "A bill proposes replacing the national anthem with a 90-second audio recording of a man named Derek calmly describing a well-organized spreadsheet. Cultural impact assessment?",
             "choices": {
-                "1": { "text": "Approved. Administrative redundancy is pure, documented waste.", "next": ["q3", 1] },
-                "2": { "text": "A start — but why stop there? Merge the branches of government too.", "next": ["q3", 4] },
-                "3": { "text": "Who authored this proposal, and who specifically gains from this level of centralization?", "next": ["q3", 3] }
+                "1": { "text": "Derek's cadence tests at 97th percentile for motivational clarity. This is an upgrade.", "next": ["q3", 1] },
+                "2": { "text": "Derek is a starting point. The full library of his recordings should be considered.", "next": ["q3", 4] },
+                "3": { "text": "What is Derek's full name. Does he have institutional affiliations. Who selected him.", "next": ["q3", 3] }
             }
         },
         "4": {
-            "question": "A bill proposes replacing all courtrooms with mediation lounges featuring beanbag chairs and herbal tea. Your thoughts?",
+            "question": "Scientists confirm cloud formations shaped like recognizable animals are measurably comforting to 91% of citizens. A proposal arrives to chemically seed all urban skies with curated animal shapes, managed by a new department. Viability?",
             "choices": {
-                "1": { "text": "Inefficient. Courts exist for speed and finality, not ambiance.", "next": ["q3", 1] },
-                "2": { "text": "Yes — but add weighted blankets, low lighting, and ambient sound.", "next": ["q3", 2] },
-                "3": { "text": "Bold. Disrupt the entire legal system architecture in a single move.", "next": ["q3", 4] }
+                "1": { "text": "Comfort has measurable downstream productivity benefits. This is defensible.", "next": ["q3", 1] },
+                "2": { "text": "Yes. Should include dogs, ducks, and one large, unmoving bear for stability.", "next": ["q3", 2] },
+                "3": { "text": "The old government manufactured consent through infrastructure. Someone is doing the same thing with clouds.", "next": ["q3", 4] }
             }
         },
         "5": {
-            "question": "A faction proposes bulldozing every government building and governing from open-air public markets instead. Too extreme?",
+            "question": "A rogue faction has been operating a fully functioning shadow government from a converted passenger ferry anchored 3 miles offshore. They have passed 14 bills this week, none of them illegal. How do you respond?",
             "choices": {
-                "1": { "text": "Only if the markets are productivity-optimized with scheduled time slots and output targets.", "next": ["q3", 1] },
-                "2": { "text": "Extreme is the point. Schedule the demolition for this weekend.", "next": ["q3", 4] },
-                "3": { "text": "Who determined markets are safe spaces for governance? What narrative is being controlled here?", "next": ["q3", 3] }
+                "1": { "text": "Audit the 14 bills. If any are more efficient than ours, adopt them.", "next": ["q3", 1] },
+                "2": { "text": "The ferry is momentum. We should have done this first.", "next": ["q3", 4] },
+                "3": { "text": "Fourteen bills in seven days from a ferry. Someone is funding this vessel. Find the manifest.", "next": ["q3", 3] }
             }
         }
     },
     "q3": {
         "1": {
-            "question": "The state proposes banning all entertainment between 9am and 6pm to maximize national productivity output. Concerns?",
+            "question": "A proposal to replace all national holidays with a single annual event: National Contribution Day. Citizens are evaluated on sleep quality, noise generated, and 'general lack of alarm to neighbors.' Thoughts?",
             "choices": {
-                "1": { "text": "None. Entertainment is a scheduled distraction from measurable contributions.", "next": ["q4", 2] },
-                "2": { "text": "Extend it. Evening entertainment is equally unproductive and should be regulated.", "next": ["q4", 3] },
-                "3": { "text": "Who defines what counts as 'entertainment'? That classification system requires serious scrutiny.", "next": ["q4", 1] }
+                "1": { "text": "The criteria are reasonable. I'd add a brief report summarizing each citizen's measurable contributions.", "next": ["q4", 2] },
+                "2": { "text": "The full year of holidays was always too dispersed. One concentrated event makes structural sense.", "next": ["q4", 3] },
+                "3": { "text": "Who determines what constitutes 'alarm to neighbors.' That classification needs a public framework.", "next": ["q4", 1] }
             }
         },
         "2": {
-            "question": "A new program offers every government employee a complimentary spa day every Friday. What are the optics?",
+            "question": "A nationwide initiative proposes converting all waiting rooms to 'arrival lounges' — same function, new name, featuring framed photographs of unremarkable and mildly pleasant meadows. Budget request is substantial. Proceed?",
             "choices": {
-                "1": { "text": "Replace with performance-based incentives. Comfort is a reward, not a right.", "next": ["q4", 3] },
-                "2": { "text": "Extend it to every citizen, every day of the week, funded nationally.", "next": ["q4", 4] },
-                "3": { "text": "Suspiciously generous. Someone is lobbying hard for the wellness industry. Find out who.", "next": ["q4", 2] }
+                "1": { "text": "Budget is excessive for photographs. Source them publicly. Keep the meadows.", "next": ["q4", 3] },
+                "2": { "text": "The meadows are the correct instinct. Consider also: ambient temperature, acceptable silence, a single plant that requires almost no attention.", "next": ["q4", 4] },
+                "3": { "text": "These are not random meadows. Someone selected them. I want the full curation methodology.", "next": ["q4", 2] }
             }
         },
         "3": {
-            "question": "BREAKING: Classified documents suggest squirrels have been systematically gathering and transmitting intelligence data since 2031. Analysis?",
+            "question": "DECLASSIFIED: A 1947 government program secretly redirected the seasonal migration routes of monarch butterflies for 42 years. Stated objectives remain fully classified. Your position?",
             "choices": {
-                "1": { "text": "Efficient countermeasure: deploy urban wildlife surveillance drones immediately.", "next": ["q4", 4] },
-                "2": { "text": "Credible. The animal kingdom has always been suspiciously well-coordinated.", "next": ["q4", 1] },
-                "3": { "text": "Release the documents in full. Launch a nationally broadcast public inquiry without delay.", "next": ["q4", 3] }
+                "1": { "text": "Redirected instinct is a documented control mechanism. This is consistent with known patterns.", "next": ["q4", 4] },
+                "2": { "text": "Release the objectives. All of them. Schedule a nationally broadcast public reading.", "next": ["q4", 1] },
+                "3": { "text": "Forty-two years. Someone renewed this program nine times. Find everyone who signed the renewals.", "next": ["q4", 3] }
             }
         },
         "4": {
-            "question": "A rogue politician proposes holding a full constitutional convention every decade, decided by public vote. Your reaction?",
+            "question": "A faction proposes replacing all government buildings with identical structures that are 12% smaller and painted a color described as 'institutional yellow.' The justification: 'to signal change without disrupting familiarity.' Response?",
             "choices": {
-                "1": { "text": "Good, but make it every two years. Genuine adaptability requires constant iteration.", "next": ["q4", 1] },
-                "2": { "text": "Every decade is too timid. One final, perfect constitution — and then it's done.", "next": ["q4", 4] },
-                "3": { "text": "Before any convention: who wrote the original, what did they bury inside it, and why?", "next": ["q4", 2] }
+                "1": { "text": "12% smaller is a measurable reduction in footprint. The color is irrelevant but not harmful.", "next": ["q4", 1] },
+                "2": { "text": "The new buildings should be genuinely new. Replace the architecture entirely, not just the paint.", "next": ["q4", 4] },
+                "3": { "text": "'Institutional yellow' is not a naturally occurring decision. Find who named that color and investigate their other naming decisions.", "next": ["q4", 2] }
             }
         }
     },
     "q4": {
         "1": {
-            "question": "A proposal to convert all public parks into high-density housing. Land is wasted on unstructured leisure. Decision?",
+            "question": "A bill proposes replacing all national borders with illustrated dotted lines on official maps, accompanied by a small printed note reading 'please.' Geopolitical assessment?",
             "choices": {
-                "1": { "text": "Approved. Parks serve no measurable economic or productive function.", "next": ["q5", 3] },
-                "2": { "text": "Parks demonstrably reduce stress and increase long-term output. They are a productivity investment.", "next": ["q5", 4] },
-                "3": { "text": "Parks were strategically introduced to pacify urban populations. Investigate the origins first.", "next": ["q5", 2] }
+                "1": { "text": "Dotted lines are already international convention. The 'please' is unconventional but not aggressive.", "next": ["q5", 3] },
+                "2": { "text": "The word 'please' implies the border is optional. That may be the most honest borders have ever been.", "next": ["q5", 4] },
+                "3": { "text": "Who drafted the note. What is their position on other borders. Have they written 'please' in other official contexts.", "next": ["q5", 2] }
             }
         },
         "2": {
-            "question": "All urban bird populations have been found with matching serial numbers on their leg bands. What is your conclusion?",
+            "question": "An intelligence brief reveals grocery stores have since 2041 used deliberately unflattering lighting and sub-optimal temperatures in produce sections to discourage citizens from lingering — and thinking. Recommended action?",
             "choices": {
-                "1": { "text": "Serial numbers imply centralized manufacturing. These birds were not born — they were produced.", "next": ["q5", 4] },
-                "2": { "text": "Highly suspicious. Ground all birds pending a full independent investigation.", "next": ["q5", 1] },
-                "3": { "text": "Deploy a transparency team immediately. Publish the complete serial number database publicly.", "next": ["q5", 3] }
+                "1": { "text": "Mandate standardized lighting across all retail food environments. Publish the temperature guidelines.", "next": ["q5", 4] },
+                "2": { "text": "The produce section has always been the most aggressive part of the store. This explains a great deal.", "next": ["q5", 1] },
+                "3": { "text": "If this program extended to 2041, prior-year data is being withheld. Demand the full temporal range.", "next": ["q5", 3] }
             }
         },
         "3": {
-            "question": "Scientists confirm that napping three times daily increases life expectancy by 14 years on average. National policy?",
+            "question": "A study finds playing aggressive orchestral music during tax filing periods increases compliance by 31%. A proposal arrives to extend curated civic audio environments to all government interactions. Your view?",
             "choices": {
-                "1": { "text": "Mandate three daily nap periods. Schedule them nationally and enforce compliance.", "next": ["q5", 4] },
-                "2": { "text": "Fund this with a dramatic, complete restructuring of the entire national workday model.", "next": ["q5", 1] },
-                "3": { "text": "These scientists were funded by someone. Verify the donor list before any action is taken.", "next": ["q5", 2] }
+                "1": { "text": "If compliance increases measurably, the music is functioning as designed. Extend it.", "next": ["q5", 4] },
+                "2": { "text": "Audio-induced compliance is still coercion. Replace the music with something citizens would actually choose.", "next": ["q5", 1] },
+                "3": { "text": "Who curated the playlist. Have they composed anything else for institutional use. I need their full discography.", "next": ["q5", 2] }
             }
         },
         "4": {
-            "question": "A faction proposes replacing all elections with a citizen lottery — any person can become president. Bold enough?",
+            "question": "The vote to ratify the new constitution is tied. An obscure 1887 statute, drafted by a man named Gerald, mandates that constitutional ties be resolved by a staring contest between the two lead delegates. No blinking. Best of three. Your move?",
             "choices": {
-                "1": { "text": "Only if paired with mandatory competency and efficiency benchmarking for all participants.", "next": ["q5", 2] },
-                "2": { "text": "Yes. Add a nationally televised component for full, unfiltered public transparency.", "next": ["q5", 3] },
-                "3": { "text": "Elections have always been theater. At least a lottery is honest about the randomness.", "next": ["q5", 1] }
+                "1": { "text": "Gerald's statute remains legally valid. We honor it. Ready the delegates.", "next": ["q5", 2] },
+                "2": { "text": "The staring contest should be held publicly. Broadcast it. This is the most honest democratic process we've had in decades.", "next": ["q5", 3] },
+                "3": { "text": "Before we proceed: who was Gerald. What other statutes did he write. Were any of them also about staring.", "next": ["q5", 1] }
             }
         }
     },
     "q5": {
         "1": {
-            "question": "The final cultural barrier to efficiency: sentimentality. Citizens remain emotionally attached to unproductive traditions. Your ruling?",
+            "question": "You have one hour to write the first sentence of the new founding document. It will be read aloud at the ceremony, carved into the building, and quoted for the next 200 years. Draft it.",
             "choices": {
-                "1": { "text": "All traditions undergo mandatory efficiency audits. Those that fail are discontinued without exception.", "next": ["president", 3] },
-                "2": { "text": "A well-rested, emotionally grounded civilization consistently outperforms an anxious, hollowed-out one.", "next": ["president", 4] },
-                "3": { "text": "The boldest move: abolish every inherited tradition and design entirely new ones from first principles.", "next": ["president", 1] }
+                "1": { "text": "We begin this document exactly where the last one ended: with a promise. Unlike the last one, this document contains no promises.", "next": ["president", 3] },
+                "2": { "text": "We have read everything they chose not to tell us. We begin here.", "next": ["president", 4] },
+                "3": { "text": "All prior language has been reviewed. Inefficiencies have been removed. This sentence remains.", "next": ["president", 1] }
             }
         },
         "2": {
-            "question": "Citizens demand a constitutionally protected two-hour afternoon rest period. What is your ruling?",
+            "question": "Three proposed national mottos have survived the committee review. Which do you endorse?",
             "choices": {
-                "1": { "text": "Denied. Rest hours are reallocated to measured, documented productive output.", "next": ["president", 3] },
-                "2": { "text": "Granted. Two hours is the minimum — I would personally legislate three.", "next": ["president", 1] },
-                "3": { "text": "Granted — and declared publicly as a revolutionary act against a system designed to exhaust us.", "next": ["president", 2] }
+                "1": { "text": "'We Begin.' (Full stop. Nothing else.)", "next": ["president", 3] },
+                "2": { "text": "'Precision. Accountability. Deliverables.'", "next": ["president", 1] },
+                "3": { "text": "'You Are Doing Fine. The Nation Is Also Fine. Rest.'", "next": ["president", 2] }
             }
         },
         "3": {
-            "question": "You are granted unrestricted access to the complete classified archive of every government in recorded history. First action?",
+            "question": "The founding ceremony begins at midnight. You have final say over what happens the moment the clock strikes twelve. What do you order?",
             "choices": {
-                "1": { "text": "Irrelevant. The past cannot be optimized. I focus exclusively on measurable futures.", "next": ["president", 4] },
-                "2": { "text": "Search for evidence that rest and comfort were systematically withheld to maintain social compliance.", "next": ["president", 3] },
-                "3": { "text": "Confirm what we always suspected: every major event for two centuries was deliberately coordinated.", "next": ["president", 2] }
+                "1": { "text": "The complete classified archive of the previous government is transmitted simultaneously to every citizen's registered device.", "next": ["president", 4] },
+                "2": { "text": "Every light in the country turns off for exactly one minute, then back on. The new world begins in darkness, then light.", "next": ["president", 3] },
+                "3": { "text": "Every citizen receives a message: tomorrow's workday is cancelled. The music is soft. Nobody has to do anything.", "next": ["president", 2] }
             }
         },
         "4": {
-            "question": "The founding moment has arrived. What is the defining promise of your movement?",
+            "question": "The official historian arrives at 11:59pm to record your founding statement for posterity. You have one sentence. What do you say?",
             "choices": {
-                "1": { "text": "Precision. We rebuild society as a machine — no waste, no excess, no noise.", "next": ["president", 2] },
-                "2": { "text": "Bold, total transformation. We dismantle everything inadequate and replace it without hesitation.", "next": ["president", 4] },
-                "3": { "text": "Total transparency. We dismantle every system that was built to deceive.", "next": ["president", 1] }
+                "1": { "text": "'We built this on one understanding: rest is not a reward. It is the baseline from which everything else was always supposed to begin.'", "next": ["president", 2] },
+                "2": { "text": "'History was written by people with something to hide. This is the first sentence written by people with nothing left to conceal.'", "next": ["president", 4] },
+                "3": { "text": "'The era of doing more than necessary is over.'", "next": ["president", 1] }
             }
         }
     }
